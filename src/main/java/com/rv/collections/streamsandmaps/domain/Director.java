@@ -17,5 +17,13 @@ public class Director extends Person {
         super(name, firstName, middleName, lastName, debutYear, age);
     }
 
+    public void printActor() {
+        System.out.println("***********Director**********");
+        System.out.printf("Name: %s\n", this.firstName + " " + this.lastName);
+        System.out.printf("Debut Year: %d\n", debutYear);
+        System.out.printf("Age: %d\n", age);
+        System.out.println("**************************");
+    }
+
 }
 

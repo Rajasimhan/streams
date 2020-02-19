@@ -66,6 +66,34 @@ public class DataUtil {
                                                 .name("jm")
                                                 .actingCategory(ActingCategory.HEROINE).build()
                                 )
+                        ).build(),
+                Movie.builder()
+                        .title("Inception")
+                        .yearOfRelease(2011)
+                        .director(Director.builder()
+                                .age(43)
+                                .debutYear(1999)
+                                .firstName("Christopher")
+                                .lastName("Nolan")
+                                .name("JN")
+                                .build())
+                        .cast(
+                                Arrays.asList(
+                                        Actor.builder()
+                                                .age(42)
+                                                .debutYear(1990)
+                                                .firstName("Leo")
+                                                .lastName("Di-Cap")
+                                                .name("ld")
+                                                .actingCategory(ActingCategory.HERO).build(),
+                                        Actor.builder()
+                                                .age(79)
+                                                .debutYear(154)
+                                                .firstName("Michael")
+                                                .lastName("Caine")
+                                                .name("mc")
+                                                .actingCategory(ActingCategory.SUPPORT).build()
+                                )
                         ).build()
         );
     }

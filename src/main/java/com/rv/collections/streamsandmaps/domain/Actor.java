@@ -25,7 +25,7 @@ public class Actor extends Person {
     public void printActor() {
         System.out.println("***********Actor**********");
         System.out.printf("Name: %s\n", this.firstName + " " + this.lastName);
-        System.out.printf("DebutYear: %d\n", debutYear);
+        System.out.printf("Debut Year: %d\n", debutYear);
         System.out.printf("Age: %d\n", age);
         System.out.println("**************************");
     }
